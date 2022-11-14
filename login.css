@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#404258, #6B728E);  
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 700px;
+    background: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgb(0,0,0,0.1);
+    justify-content: center;
+}
+
+login{
+    width: 100px;
+    /* margin-left: 50px; */
+    padding: 15px;
+}
+
+form{
+    width: 250px;
+    margin: 20px auto;
+}
+
+h1{
+    margin: 15px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+hr{
+    border-top: 2px solid #404258;
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+}
+
+.loginlg img{
+    width: 350px;
+    height: 380px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    padding: 50px;
+}
+
+
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+input{
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #ffff;
+    cursor: pointer;
+    margin-top: 10px;
+    background: #7D6E83;
+}
+
+button:hover{
+    background: rgba(214, 86, 64, 1);
+}
+
+@media (max-width: 880px){
+    .container{
+        width: 100%;
+        max-width: 750px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    form{
+        width: 300px;
+        margin: 20px auto;
+    }
+    .login{
+        width: 500px;
+        padding: 20px;
+    }
+    button{
+        width: 100%;
+    }
+    .loginlg img{
+        width: 90%;
+        height: 80%;
+    }
+}
+
+.form_login {
+    /*membuat lebar form penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+  }
+
+  .tombol_login {
+    cursor: pointer;
+    background: #a80d1d;
+    color: #DFD3C3;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    }
